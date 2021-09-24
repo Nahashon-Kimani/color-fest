@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section h3{
+    color: #4ecdc4;
+}
+.top-section p i{
+    /* color: #7cff9b; */
+    color: #4ecdc4;
+    font-weight: 500;
+}
+.top-section ul li i{
+    font-size: 20px;
+    color: #4ecdc4;
+}
+.top-section ul li i:hover{
+    margin-left: 5px;
+    transform: scale(1.005);
+    transition: ease-in-out .7s;
+    border: 2px solid #4ecdc4;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/* Navigation Bar */
+.navbar ul.navbar-nav a{
+    font-size: 20px;
+}
+nav.navbar{
+    background-color: #4ecdc4!important;
+}
+
+
+/* carousel Stylings */
+.carousel img{
+    height: 70vh;
+}
+.carousel .carousel-caption{
+    background-color: #4ecdc4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* program section */
+.program{
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.program .card img{
+    height: 400px;
+    opacity: .7;
+}
+.program .card{
+    margin-bottom: 20px;
+}
+.program .card:hover .card-body{
+    background: #4ecdc4;
+    background: linear-gradient(90deg, rgba(78,205,196,1) 0%, rgba(78,205,196,0.8) 100%);
+    color: #ffffff;
+    transition:  .6s;
+}
+.program .card:hover img{
+    opacity: 1;
+}
+.program .card:hover{
+    box-shadow: 4px 4px 15px -2px #4ecdc475;
+-webkit-box-shadow: 4px 4px 15px -2px #4ecdc475;
+-moz-box-shadow: 4px 4px 15px -2px #4ecdc475;
+}
