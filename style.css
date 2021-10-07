@@ -69,3 +69,29 @@ nav.navbar{
 -webkit-box-shadow: 4px 4px 15px -2px #4ecdc475;
 -moz-box-shadow: 4px 4px 15px -2px #4ecdc475;
 }
+
+/* Plan section */
+.plan{
+    /* background: url('assets/images/1.jpg'), #4ecdc4; */
+    background: linear-gradient(#4ecdc5ef, #4ecdc4cc), url('assets/images/3.jpg');
+    /* background: linear-gradient(90deg, black, red); */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.plan .card{
+    border-top: 5px solid #00ffee;
+}
+.plan .card i{
+    color: #4ecdc4;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.plan .card button{
+    background: linear-gradient(75deg, #4ecdc4, #00ffee);
+    border-radius: 0px!important;
+}
+.plan .recommend{
+    box-shadow: 28px 29px 50px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 28px 29px 50px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 28px 29px 50px -4px rgba(0,0,0,0.75);
+}
